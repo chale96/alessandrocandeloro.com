@@ -10038,8 +10038,12 @@ a.text-dark:hover, a.text-dark:focus {
 /*# sourceMappingURL=bootstrap.css.map */.space {
     padding-bottom: 5%;
 }
-.centered {
-    text-align: center;
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 .spaceTop {
     padding-top: 3%;
@@ -10050,4 +10054,16 @@ a.text-dark:hover, a.text-dark:focus {
 }
 .subtitle {
     /* [disabled]color: #000; */
+}
+.spaceLeft {
+    margin-left: 10%;
+}
+.spaceBottom {
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+.vertical-centered {
+}
+.left-space {
+    margin-left: 5%;
 }
